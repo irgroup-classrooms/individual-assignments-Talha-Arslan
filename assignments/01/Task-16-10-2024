@@ -1,0 +1,54 @@
+# Data and Information Science - TH Köln
+
+## To-Do List for Learning Goals
+
+Here are some topics that I have encountered today and want to explore throughout the semester. I will update the list as I learn new things:
+
+- [ ] Machine Learning Models (Supervised/Unsupervised)
+- [ ] Data Cleaning and Preprocessing Techniques
+- [ ] Python Pandas and Numpy Advanced Features
+- [ ] Data Visualization with Matplotlib and Seaborn
+- [ ] SQL Queries Optimization
+- [ ] Cloud Computing in Data Science (AWS, Azure)
+- [ ] Natural Language Processing (NLP)
+- [ ] Big Data Technologies (Hadoop, Spark)
+- [ ] Ethics in Data Science
+
+I will update and check off topics as I cover them in class or self-study!
+
+---
+
+## Markdown Syntax Cheat Sheet
+
+This table serves as my personal markdown syntax reference. It will be updated with more examples over time.
+
+| **Element**          | **Syntax**                       | **Example**                                      |
+|----------------------|----------------------------------|--------------------------------------------------|
+| Heading              | `# H1` `## H2` `### H3`          | `## Example Heading`                             |
+| Bold                 | `**bold text**`                  | **bold text**                                    |
+| Italics              | `*italic text*`                  | *italic text*                                    |
+| Strikethrough        | `~~strikethrough~~`              | ~~strikethrough~~                                |
+| Unordered List       | `- item`                         | - Item 1                                         |
+| Ordered List         | `1. item`                        | 1. Item 1                                        |
+| Code Block           | \```python \n code \n \```       | \```python \n print("Hello, world!") \n \```     |
+| Link                 | `[link](url)`                    | [GitHub](https://github.com)                     |
+| Image                | `![alt text](image url)`         | ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) |
+| Blockquote           | `> quote`                        | > "Be the change you wish to see in the world."  |
+
+---
+
+## Inspiring Quote
+
+> “Data is a precious thing and will last longer than the systems themselves.”  
+> — Tim Berners-Lee
+
+This quote inspires me to appreciate the longevity and importance of data in the ever-changing field of technology.
+
+---
+
+## Verbatim Code Example
+
+Here’s a simple Python code that prints "Hello World!":
+
+```python
+print("Hello World!")
