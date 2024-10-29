@@ -1,13 +1,15 @@
-Linux Journey Documentation
+# Linux Journey Documentation
 
-1. The Shell
+## 1. The Shell
 
-Quiz:
-What should be outputted to the display when you type echo Hello World?
+### Quiz:
+What should be outputted to the display when you type 'echo Hello World'?
 
-Answer:
+### Answer:
 Hello World
 
-Command line output:
+### Command line output:
+```bash
 $ echo Hello World
 Hello World
+```
