@@ -1,0 +1,111 @@
+=====================
+Welcome to bashcrawl!
+=====================
+
+This is a game to teach you the basics of using a POSIX (Linux, BSD,
+UNIX) terminal, like the one where you are reading this message now.
+
+Your first move is very important.
+Type this into the terminal, and press RETURN:
+
+    cat scroll
+
+You are now playing the game.
+May the gods save you.
+
+~/entrance$ cat stroll
+cat: stroll: No such file or directory
+~/entrance$ cat scroll
+
+It is pitch black in these catacombs.
+You have a magickal spell that lists all items in a room.
+
+To see in the dark, type:     ls
+To move around, type:         cd <directory>
+
+Try looking around this room.
+Then move into one of the next rooms.
+
+EXAMPLE:
+
+$ ls 
+$ cd cellar
+
+Remember to cast ``ls`` when you get into the next room!
+
+~/entrance$ ls
+cellar  scroll
+~/entrance$ cd cellar
+~/entrance/cellar$ ls
+armoury  scroll  treasure
+~/entrance/cellar$ cd armoury
+~/entrance/cellar/armoury$ ls
+chamber  potion  scroll  treasure
+~/entrance/cellar/armoury$ cd chamber
+~/entrance/cellar/armoury/chamber$ ls
+scroll  spell  statue  treasure
+~/entrance/cellar/armoury/chamber$ cd scroll
+bash: cd: scroll: Not a directory
+~/entrance/cellar/armoury/chamber$ cd cellar
+bash: cd: cellar: No such file or directory
+~/entrance/cellar/armoury/chamber$ ls
+scroll  spell  statue  treasure
+~/entrance/cellar/armoury/chamber$ cd scroll
+bash: cd: scroll: Not a directory
+~/entrance/cellar/armoury/chamber$ cat scroll
+
+# You seem to have reached the end of this hall.
+# 
+# Turn back and try another path.
+#
+# Remember, to back track one directory, you type:
+#
+# cd ..
+#
+# If you are drawing a map of your progress,
+# you can always get the name of your working
+# directory with this command:
+# 
+# pwd
+
+~/entrance/cellar/armoury/chamber$ cd armoury
+bash: cd: armoury: No such file or directory
+~/entrance/cellar/armoury/chamber$ cd chamber
+bash: cd: chamber: No such file or directory
+~/entrance/cellar/armoury/chamber$ cd entrance
+bash: cd: entrance: No such file or directory
+~/entrance/cellar/armoury/chamber$ cd armoury
+bash: cd: armoury: No such file or directory
+~/entrance/cellar/armoury/chamber$ ls
+scroll  spell  statue  treasure
+~/entrance/cellar/armoury/chamber$ cat scroll
+
+# You seem to have reached the end of this hall.
+# 
+# Turn back and try another path.
+#
+# Remember, to back track one directory, you type:
+#
+# cd ..
+#
+# If you are drawing a map of your progress,
+# you can always get the name of your working
+# directory with this command:
+# 
+# pwd
+
+~/entrance/cellar/armoury/chamber$ ./scroll
+bash: ./scroll: Permission denied
+~/entrance/cellar/armoury/chamber$ ./statue
+A rugged statue stands in the corner of the room.
+
+Do you approach it? y/n  y
+The statue springs to life, rumbling:
+
+WHO DARES INTRUDE UPON THE CHAMBER OF SPIRITS?
+
+It thrusts a fist at you, hitting you for 5 damage.
+
+You have been slain by the statue.
+
+GAME OVER!
