@@ -4,14 +4,6 @@ Git Bash mit einem bash script
 cd /c/Users/talha/Documents/my-project/
 git init
 
-echo "*.log" >> .gitignore
-echo "node_modules/" >> .gitignore
-echo "temp/" >> .gitignore
-
-git add .gitignore
-git commit -m "Add .gitignore to exclude unnecessary files"
-git push -u origin main
-
 git checkout -b create-script
 nano script.sh
 ```
