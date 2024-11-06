@@ -1,7 +1,7 @@
 # Shell Lesson
 Git Bash mit einem bash script
 ```
-cd /c/Users/YourUsername/Documents/my-project/
+cd /c/Users/talha/Documents/my-project/
 git init
 
 echo "*.log" >> .gitignore
